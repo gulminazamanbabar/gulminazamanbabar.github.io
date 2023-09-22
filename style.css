@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Bai+Jamjuree:wght@400;500;600&family=Eagle+Lake&family=Faster+One&family=Grenze+Gotisch&family=Jacques+Francois+Shadow&family=La+Belle+Aurore&family=Monoton&family=Noto+Sans+Arabic:wght@200&family=Philosopher&family=Rampart+One&family=Reggae+One&family=Roboto:wght@100&family=Stardos+Stencil&family=Syne&display=swap');
+
+
+:root {
+    --color-body: linear-gradient(to left, rgb(248, 240, 82), rgb(250, 216, 24));
+}
+
+body{
+  background: var(--color-body) !important;
+  font-size: larger !important;
+}
+
+ /* About Section */
+ .container-fluid {
+     scroll-behavior: smooth;
+ }
+
+.box1 {
+    font-family: Syne;
+    font-weight: bold;
+    color: rgb(94, 94, 93);
+}
+
+
+.box3 {
+    font-family: Syne;
+    font-weight: bold;
+    color: rgb(94, 94, 93);
+    padding: 0 !important;
+    padding-bottom: 3% !important;
+    background-color: #ffffff;
+}
+ .box2 {
+    font-family: Syne;
+    font-weight: bold;
+    color: rgb(94, 94, 93);
+    text-align: center;
+ }
+
+
+ .button{
+    background: rgb(80, 69, 179);
+    color: white;
+    font-weight: 50px;
+    border-radius: 5px;
+    float:right;
+    border:solid rgb(80, 69, 179);
+    margin:1%;
+ }
+
+ .box {
+    color: #050505fc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1% auto;
+    padding: 2%;
+    border:2px solid #000000;
+    }
+
+.table {
+            border-collapse: collapse;
+            /* Collapse borders for a solid line */
+            width: 100%;
+            background-color: #ffffff;
+            border: 1px solid #303030;
+        }
+
+ /* Style table headers */
+ th {
+     border: 1px solid #303030;
+     /* Add a 1px solid border around headers */
+     text-align: left;
+     padding: 8px;
+ }
+
+  td {
+      border: 1px solid#303030;
+      /* Add a 1px solid border around cells */
+      text-align: left;
+      padding: 8px;
+  }
+
+ .btn-gul {
+    font-size: xx-small;
+    padding-left:0 !important;
+ }
+
+ .btn-gul button{
+    display: block;
+ }
+
+ th {
+    text-align: center !important;
+ }
+
+ .t-btn {
+    text-align: center;
+ }
+
+ .box3 td{
+    padding-left: 0 !important;
+ }

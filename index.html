@@ -1,11 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documen</title>
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+    <title>shoretecsolutions</title>
 </head>
 <body>
-    <h1>Hello git</h1>
+<!-- About Section -->
+<div class="container-fluid mt-3">
+    <div class="row">
+        <!-- Information Dossiers -->
+        <div class="col-md-4">
+            <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-md-6" style=" padding-left:0">
+                    <h5 class="box1">Informations Dossier</h5>
+                </div>
+                <div class="col-md-6" style="padding-right:0;">
+                    <button class="button">Changer Date</button>
+                </div>
+                </div>
+                </div>
+            <div class="box">
+        <span><strong>Dossier n<sup>0</sup> 6926</strong></span> <br>
+        <i><span>Cr&eacute;&eacute; le: 2016-01-11 09:55:50</span></i><br>
+        <strong><span>Facture n<sup>0</sup> : 6971</span> <br>
+        <span>Montant Facture : 210.00 &euro;</span> 
+        <br>
+        <span>SOLDE <i>(diff&eacute;r&eacute;s inclus</i>) : 0.00 &euro;</span></strong>
+     </div>
+
+     <!-- Info Clients -->
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-6" style=" padding-left:0">
+                <h5 class="box1">Info Clients</h5>
+            </div>
+            <div class="col-md-6" style="padding-right:0;">
+                <button class="button">Changer Client</button>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+      <strong><span>PARADA</span> <br>
+      <span>TEL: 0633529681</span> <br>
+      <span>TEL Mada :</span> <br>
+      <span>Jours d&eacute; credit : 0</span> <br>
+     </strong>
+     <span><i>Dernier relev&eacute; envoy&eacute; le</i></span> <br>
+     <strong>Commentaries :</strong><i>P/C Mlle RANDRIAMANATENA VOAHANGY TIAHA MISOA</i> <br>
+     <span><strong style="color:blue;">Terifs : </strong>Normal</span>
+    </div>
+
+    <!-- Informations Groupage -->
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-6" style=" padding-left:0">
+                <h5 class="box1">Informations Groupage</h5>
+            </div>
+            <div class="col-md-6" style="padding-right:0;">
+                <button class="button">Changer</button>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+       <span><strong>Nom Groupage</strong> M01/16</span> <br>
+       <span><strong>Num Contaneur</strong> ECMU 979191/2</span> <br>
+       <span><strong>De :</strong> MARSEILLE <strong>Peur :</strong> TAMATAVE</span> <br>
+       <span><strong>Embarquement a</strong> FOS SUR MER</span> <br>
+    <span><strong>Depart pr&eacutevue lee</strong></span> <br>
+    <span><strong>Statut :</strong></span>
+    </div>
+
+        </div>
+        
+        <div class="col-md-8">
+
+            <!-- Dossier Groupage TIPAN -->
+            <h3 class="box2">Dossier Groupage TIPAN</h3>
+            <div class="container-fluid mt-3">
+            <div class="row">
+                   
+                 <div class="col-md-6">
+                        <div class="form-group box1">
+                            <label for="usr">Shipper</label>
+                            <input type="text" class="form-control" id="usr" placeholder="RANDRIAMANATENA VOAHANGY TIAHA MISOA">
+                        </div>
+                    </div>
+
+                <div class="col-md-6 box1">
+                        <div class="form-group">
+                            <label for="usr">CNEE/Notify</label>
+                            <input type="text" class="form-control" id="usr" placeholder="RANDRIAMANATENA VOAHANGY TIAHA MISOA">
+                </div>
+            </div>
+    </div>
+    </div>
+<!-- 2 -->
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+        
+         <div class="col-md-12 box1 abcd">
+
+              <label for="usr">Novier Merchandise
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Reservation</a></li>
+                        </ul>
+                    </div>
+                </label>
+
+               
+                  <label for="usr" style="margin-bottom:4%">Neuf:<div class="form-check"><input type="checkbox" class="form-check-input" id="usr"></div></label>
+
+                    <label for="usr">Nb<input type="text" class="form-control" id="usr" size="5"></label>
+
+                    <label for="usr">Valeur (&pound;)<input type="text" class="form-control" id="usr"size="5" size="5"></label>
+
+                    <label for="usr">Poids<input type="text" class="form-control" id="usr"size="5"></label>
+
+                    <label for="usr">Volume<input type="text" class="form-control" id="usr"size="5"></label>
+
+                    <label for="usr">Mode<input type="text" class="form-control" id="usr"size="5" disabled></label>
+
+                    <label for="usr">PU (&pound;)<input type="text" class="form-control" id="usr"size="5" disabled></label>
+
+                    <label for="usr">PT (&pound;)<input type="text" class="form-control" id="usr" size="5"disabled></label>
+               
+
+            </div>
+            
+         </div>
+    </div>
+
+
+<!-- 3 -->
+
+<div class="container-fluid mt-3">
+    <div class="row">
+
+        <div class="col-md-12 box1">
+        <div class="form-group">
+        <label for="comment" style="float:left; padding-right:1%">Descriptif</label>
+     <textarea class="form-control" rows="2" id="comment" style="width:92%; float:right"></textarea>
+    </div>
+        </div>
+        <button class="button" style="margin-left:0%">Annuler saisie</button>
+        <button class="button">Creer</button>
+       </div>
+</div>
+
+
+<!-- Detail Groupage Saisis -->
+<h3 class="box2">Detail Groupage Saisis</h3>
+<div class="container-fluid mt-3" >
+    <div class="row">
+
+    <div class="table-responsive box3">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nature</th>
+        <th>Descriptif</th>
+        <th>No</th>
+        <th>Valeur</th>
+        <th>Poids</th>
+        <th>Vol</th>
+        <th>facturation</th>
+        <th>Pu</th>
+        <th>Cout total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Coils</td>
+        <td>Electrom&eacute;nager d<sup>'</sup>occasion et vetement d<sup>'</sup>occasion et vetement</td>
+        <td>3.00</td>
+        <td>190</td>
+        <td>150</td>
+        <td>1.00</td>
+        <td>Volume</td>
+        <td>180.00</td>
+        <td>180.00</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+    
+
+    </div>
+    <!-- Frais at remisis exceptionelles -->
+    <div class="row" style="margin-top:3%">
+        <div class="col-md-8"><h3 class="box2">Frais at remisis exceptionelles</h3></div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+           
+            <div class="col-md-8 t-btn" style="padding:0;">
+                <div class="table-responsive box1">
+                    <table class="table" style="margin-bottom:0%">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Montant</th>
+                                <th>Commantier</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <button class="button" style="margin-left:0%;">Ajout Remise</button>
+                <button class="button" style="margin-left:0%">Ajout Frais</button>
+        </div>
+        <div class="col-md-1 btn-gul" style="width: 1%;">
+            <button disabled>&#9650</button>
+            <button>&#9660</button>
+        </div>
+        <div class="col-md-3" style="padding-left:0;"><div class="box" style="width:80% ; padding-top:25%;padding-bottom: 25%;"></div></div>
+        <div class="col-md-1">
+        </div>
+ </div>
+</div>
+
+<!-- Encaissements-->
+<h3 class="box2" style="margin-top:7%">Encaissements</h3>
+<div class="container-fluid mt-3">
+    <div class="row">
+
+        <div class="table-responsive box1" style="padding-bottom: 0;">
+            <table class="table" style="margin-bottom: 0;">
+                <thead>
+                    <tr>
+                        <th>Mode de reglement</th>
+                        <th>Commentaire</th>
+                        <th>Compte</th>
+                        <th>Date</th>
+                        <th>Montant</th>
+                        <th>Par</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Esp&eacute;ces</td>
+                        <td></td>
+                        <td>LCL Z</td>
+                        <td>11/01/16</td>
+                        <td style="text-align: right;">210.00&euro;</td>
+                        <td>C&Eacute;D</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 t-btn">
+            <label for="usr" style="float:left; padding-top:0.5%"><input type="checkbox" style="padding-top:1%"> Reglement</label>
+            <button class="button" style="float:right; margin-left: 0; margin-right: 0;">Quitter Dossier</button>
+            <button class="button" style="float:right;">Enregister</button>
+            <button class="button" style="float:none; margin-left: 0; margin-right: 0.5%;">Ajout Encaissements </button>
+            <button class="button" style="float:none; margin-left: 0; background-color: #8C92AC; border-color:#8C92AC" disabled>Creer Avoir</button>
+        </div>
+    </div>
+    
+<!-- <div class="container-fluid mt-3">
+    <div class="row">
+    <button class="button" style="float:none">Impreimer re&ccedil;u</button>
+    <button class="button" style="float:none">Impreimer facture</button></div>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <button class="button" style="float:none">re&ccedil;u par mail </button>
+            <button class="button" style="float:none">Facture par mail </button>
+            <button class="button" style="float:none">Impreimer les etiquetes</button>
+            
+          
+        </div>
+
+</div>
+</div> -->
+<div class="row">
+    <div class="col-md-6" style="text-align:center">
+            <button class="button" style="float:none">Impreimer re&ccedil;u</button>
+            <button class="button" style="float:none">Impreimer Facture</button></div>
+    <div class="col-md-6">
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6" style="text-align:center">
+                        <button class="button" style="float:none">Re&ccedil;u par mail </button>
+                        <button class="button" style="float:none">Facture par mail </button>
+                        <button class="button" style="float:none">Impreimer les etiquettes</button>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+</div>
+
+
 </body>
 </html>
